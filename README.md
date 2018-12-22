@@ -1,5 +1,7 @@
 <p align="center">
-<img src="ScreenShots/1.png" width=380 height=736 />
+  <img src="ScreenShots/1.png" width=280 height=636 />
+  <img src="ScreenShots/2.png" width=280 height=636 />
+  <img src="ScreenShots/3.png" width=280 height=636 />
 </p>
 
 #  ZatKarDemo
