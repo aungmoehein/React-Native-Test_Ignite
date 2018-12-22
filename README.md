@@ -1,4 +1,4 @@
-![alt text](ScreenShots/1.png =20*100 "Home Screen")
+![alt text](ScreenShots/1.png =20x100)
 
 #  ZatKarDemo
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
