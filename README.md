@@ -1,8 +1,35 @@
+**Showing**
 <p align="center">
   <img src="ScreenShots/1.png" width=280 height=636 />
-  <img src="ScreenShots/2.png" width=280 height=636 />
-  <img src="ScreenShots/3.png" width=280 height=636 />
 </p>
+<p align="center">
+  <img src="ScreenShots/2.png" width=280 height=636 />
+</p>
+
+**UpComing**
+<p align="center">
+  <img src="ScreenShots/5.png" width=280 height=636 />
+</p>
+<p align="center">
+  <img src="ScreenShots/6.png" width=280 height=636 />
+</p>
+
+**Cinema**
+<p align="center">
+  <img src="ScreenShots/7.png" width=280 height=636 />
+</p>
+<p align="center">
+  <img src="ScreenShots/8.png" width=280 height=636 />
+</p>
+<p align="center">
+  <img src="ScreenShots/9.png" width=280 height=636 />
+</p>
+
+**About**
+<p align="center">
+  <img src="ScreenShots/10.png" width=280 height=636 />
+</p>
+
 
 #  ZatKarDemo
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
