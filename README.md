@@ -1,4 +1,4 @@
-<img src="ScreenShots/1.png" width=100 height=250 />
+<img src="ScreenShots/1.png" width=300 height=700 />
 
 #  ZatKarDemo
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
