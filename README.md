@@ -1,4 +1,8 @@
-**Showing**
+# Description
+This is the absolute clone of **[YoteShin](https://itunes.apple.com/us/app/yote-shin/id961845231?mt=8)** IOS App.
+
+# Screenshots of App
+## SHOWING
 <p align="center">
   <img src="ScreenShots/1.png" width=280 height=636 />
 </p>
@@ -6,7 +10,7 @@
   <img src="ScreenShots/2.png" width=280 height=636 />
 </p>
 
-**UpComing**
+## UPCOMING
 <p align="center">
   <img src="ScreenShots/5.png" width=280 height=636 />
 </p>
@@ -14,7 +18,7 @@
   <img src="ScreenShots/6.png" width=280 height=636 />
 </p>
 
-**Cinema**
+## CINEMA
 <p align="center">
   <img src="ScreenShots/7.png" width=280 height=636 />
 </p>
@@ -25,7 +29,7 @@
   <img src="ScreenShots/9.png" width=280 height=636 />
 </p>
 
-**About**
+## ABOUT
 <p align="center">
   <img src="ScreenShots/10.png" width=280 height=636 />
 </p>
