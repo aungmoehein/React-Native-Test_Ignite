@@ -3,10 +3,12 @@ package com.yoteshindemo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.learnium.RNDeviceInfo.RNDeviceInfo;
+import com.inprogress.reactnativeyoutube.ReactNativeYouTube;
+import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
-import com.learnium.RNDeviceInfo.RNDeviceInfo;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -27,10 +29,12 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNDeviceInfo(),
+            new ReactNativeYouTube(),
+            new ReactNativeConfigPackage(),
             new RNI18nPackage(),
             new VectorIconsPackage(),
-            new RNGestureHandlerPackage(),
-            new RNDeviceInfo()
+            new RNGestureHandlerPackage()
       );
     }
 

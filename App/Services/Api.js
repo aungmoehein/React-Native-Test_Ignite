@@ -2,7 +2,7 @@
 import apisauce from 'apisauce'
 
 // our "constructor"
-const create = (baseURL = 'https://api.github.com/') => {
+const create = (baseURL = 'http://appapi.yoteshinapp.com/api/') => {
   // ------
   // STEP 1
   // ------
@@ -14,11 +14,13 @@ const create = (baseURL = 'https://api.github.com/') => {
     baseURL,
     // here are some default headers
     headers: {
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'no-cache',
     },
     // 10 second timeout...
     timeout: 10000
   })
+
+  api.setHeader('Authorization','Basic eTB0M3NoMW5jbDEzbnQweDEyNDpXYzcyY2dqLTk3YXA4Yypr')
 
   // ------
   // STEP 2
@@ -34,9 +36,9 @@ const create = (baseURL = 'https://api.github.com/') => {
   // Since we can't hide from that, we embrace it by getting out of the
   // way at this level.
   //
-  const getRoot = () => api.get('')
-  const getRate = () => api.get('rate_limit')
-  const getUser = (username) => api.get('search/users', {q: username})
+  const getCinema = () => api.get('cinemas?font_name=zawgyi')
+  const getShowingSchedule = () => api.get('schedules?status=showing')
+  const getUpComingSchedule = () => api.get('schedules?status=upcoming')
 
   // ------
   // STEP 3
@@ -52,9 +54,9 @@ const create = (baseURL = 'https://api.github.com/') => {
   //
   return {
     // a list of the API functions from step 2
-    getRoot,
-    getRate,
-    getUser
+    getCinema,
+    getShowingSchedule,
+    getUpComingSchedule
   }
 }
 

@@ -19,7 +19,16 @@ const images = {
   chevronRight: require('../Images/Icons/chevron-right.png'),
   hamburger: require('../Images/Icons/hamburger.png'),
   backButton: require('../Images/Icons/back-button.png'),
-  closeButton: require('../Images/Icons/close-button.png')
+  closeButton: require('../Images/Icons/close-button.png'),
+  phone: require('../Images/Icons/phone_icon.png'),
+  movie: require('../Images/Icons/movie.png'),
+  calendar: require('../Images/Icons/calendar.png'),
+  ticket: require('../Images/Icons/ticket.png'),
+  location: require('../Images/Icons/location.png'),
+  user: require('../Images/Icons/user.png'),
+  appstore: require('../Images/Icons/appstore.png'),
+  facebook: require('../Images/Icons/facebook.png'),
+  mail: require('../Images/Icons/mail.png'),
 }
 
 export default images
