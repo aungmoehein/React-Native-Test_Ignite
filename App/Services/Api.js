@@ -1,8 +1,9 @@
 // a library to wrap and simplify api calls
 import apisauce from 'apisauce'
+import Config from 'react-native-config'
 
 // our "constructor"
-const create = (baseURL = 'http://appapi.yoteshinapp.com/api/') => {
+const create = (baseURL = Config.API_URL) => {
   // ------
   // STEP 1
   // ------
@@ -19,8 +20,7 @@ const create = (baseURL = 'http://appapi.yoteshinapp.com/api/') => {
     // 10 second timeout...
     timeout: 10000
   })
-
-  api.setHeader('Authorization','Basic eTB0M3NoMW5jbDEzbnQweDEyNDpXYzcyY2dqLTk3YXA4Yypr')
+  api.setHeader('Authorization','Basic '+Config.API_KEY)
 
   // ------
   // STEP 2
@@ -36,9 +36,9 @@ const create = (baseURL = 'http://appapi.yoteshinapp.com/api/') => {
   // Since we can't hide from that, we embrace it by getting out of the
   // way at this level.
   //
-  const getCinema = () => api.get('cinemas?font_name=zawgyi')
-  const getShowingSchedule = () => api.get('schedules?status=showing')
-  const getUpComingSchedule = () => api.get('schedules?status=upcoming')
+  const getCinema = () => api.get(Config.GET_CINEMA)
+  const getShowingSchedule = () => api.get(Config.GET_SCHEDULE_SHOWING)
+  const getUpComingSchedule = () => api.get(Config.GET_SCHEDULE_UPCOMING)
 
   // ------
   // STEP 3

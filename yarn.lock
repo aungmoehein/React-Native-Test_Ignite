@@ -3259,7 +3259,16 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.6.2, create-react-class@^15.6.3:
+create-react-class@15.6.0:
+  version "15.6.0"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.0.tgz#ab448497c26566e1e29413e883207d57cfe7bed4"
+  integrity sha1-q0SEl8JlZuHilBPogyB9V8/nvtQ=
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
+create-react-class@^15.6.0, create-react-class@^15.6.2, create-react-class@^15.6.3:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   integrity sha512-M+/3Q6E6DLO6Yx3OwrWjwHBnvfXXYA7W+dFjt/ZDBemHO1DDZhsalX/NUtnTYclN6GfnBDRh4qRHjcDHmlJBJg==
@@ -8524,16 +8533,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@15.6.0:
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
-  integrity sha1-zq8IMCL8RrSjX2nhPvda7Q1jmFY=
-  dependencies:
-    fbjs "^0.8.16"
-    loose-envify "^1.3.1"
-    object-assign "^4.1.1"
-
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
@@ -8904,6 +8904,13 @@ react-modal@^3.3.2:
     react-lifecycles-compat "^3.0.0"
     warning "^3.0.0"
 
+react-native-accordion@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-accordion/-/react-native-accordion-1.0.1.tgz#1086ac012b9d7c90cd1efd014f2804baa16a1f5b"
+  integrity sha1-EIasASudfJDNHv0BTygEuqFqH1s=
+  dependencies:
+    react-tween-state "0.0.5"
+
 react-native-actionsheet@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/react-native-actionsheet/-/react-native-actionsheet-2.4.2.tgz#6a00dd51a75ef2c8974312130e405af73191500f"
@@ -8923,10 +8930,10 @@ react-native-compat@^1.0.0:
   dependencies:
     prop-types "^15.5.10"
 
-react-native-config@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.10.0.tgz#7ecabfcdc5f8fe34ba42b56b043626eb72d232fe"
-  integrity sha512-tyGecES9o/MVzU5kXEaiCM4u9SXWzYEm/rmgtuILHqm/8oO+l1TJkYC1GDSHygfEO4GA7J9hyhgwCDddmw7oGw==
+react-native-config@^0.11.7:
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.11.7.tgz#a2b323f2ecd76a4df88cbb6bc86eaa2ef9febee7"
+  integrity sha512-dn5s+zhwLyE25vRT/vaEtLk/j8ZL1UZKvejORNDWakSwpOnLmFurFeaZV83IqkPlfWHXHFdsYe2IRYG1WN4WkQ==
 
 react-native-device-info@0.11.0:
   version "0.11.0"
@@ -8962,6 +8969,19 @@ react-native-iphone-x-helper@^1.0.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.0.tgz#9f8a376eb00bc712115abff4420318a0063fa796"
   integrity sha512-xIeTo4s77wwKgBZLVRIZC9tM9/PkXS46Ul76NXmvmixEb3ZwqGdQesR3zRiLMOoIdfOURB6N9bba9po7+x9Bag==
+
+react-native-modalbox@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-modalbox/-/react-native-modalbox-1.6.0.tgz#ee353a2d568715a2b10db8eeb91132fb1f45952b"
+  integrity sha512-kib6ooTWLgsms59DrRQWt1NBj/UiA7/Q76H8S+awQcKca/OxCAJuqEA+MRZLlt4SsTblOy6lz7Qn9MC/SE9yOw==
+  dependencies:
+    create-react-class "^15.6.0"
+    prop-types "^15.5.10"
+
+react-native-phone-call@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-phone-call/-/react-native-phone-call-1.0.9.tgz#4468ec6f95856557fbff9bd69a0db04b54c35e1d"
+  integrity sha512-OPWYg8qeWNG/U4bWGMAKcQTH/ifqJnsvUPCH4lOkvWFHbQS3fbH5M8rFhXCzcfS0GVNzHhZX9ZByMM368TFAUQ==
 
 react-native-read-more-text@^1.1.0:
   version "1.1.0"
@@ -9007,6 +9027,13 @@ react-native-view-more-text@^2.0.1:
   integrity sha512-MzFb5+RpCdhm8esf5O6Csw/KrBg6eKqACzv8czYLlewwKE2TvRB9sfb+PhK2K6pyWqJ8jh3KneTjFn3Kndr79Q==
   dependencies:
     prop-types "^15.5.7"
+
+react-native-youtube@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-youtube/-/react-native-youtube-1.1.0.tgz#efa30c4f7385d1951af643188e30760efd6c0784"
+  integrity sha512-/+xy09Bq4rdoUyMsDAVtflOje6mh6MK8V8D4+qC0d8EM7mSyrdrmo9rtlfQwCsGtnb+Uak46ILevyJb0FTFeHg==
+  dependencies:
+    prop-types "^15.5.0"
 
 react-native@0.57.7:
   version "0.57.7"
@@ -9199,6 +9226,13 @@ react-treebeard@^2.1.0:
     radium "^0.19.0"
     shallowequal "^0.2.2"
     velocity-react "^1.3.1"
+
+react-tween-state@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-tween-state/-/react-tween-state-0.0.5.tgz#bd25c27f2558b839a6c7aee3b85fab967760d1d2"
+  integrity sha1-vSXCfyVYuDmmx67juF+rlndg0dI=
+  dependencies:
+    tween-functions "^1.0.1"
 
 react@16.6.1:
   version "16.6.1"
@@ -10705,6 +10739,11 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
+
+tween-functions@^1.0.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tween-functions/-/tween-functions-1.2.0.tgz#1ae3a50e7c60bb3def774eac707acbca73bbc3ff"
+  integrity sha1-GuOlDnxguz3vd06scHrLynO7w/8=
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
