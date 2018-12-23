@@ -1,3 +1,40 @@
+# Description
+This is the absolute clone of **[YoteShin](https://itunes.apple.com/us/app/yote-shin/id961845231?mt=8)** IOS App.
+
+# Screenshots of App
+## SHOWING
+<p align="center">
+  <img src="ScreenShots/1.png" width=280 height=636 />
+</p>
+<p align="center">
+  <img src="ScreenShots/2.png" width=280 height=636 />
+</p>
+
+## UPCOMING
+<p align="center">
+  <img src="ScreenShots/5.png" width=280 height=636 />
+</p>
+<p align="center">
+  <img src="ScreenShots/6.png" width=280 height=636 />
+</p>
+
+## CINEMA
+<p align="center">
+  <img src="ScreenShots/7.png" width=280 height=636 />
+</p>
+<p align="center">
+  <img src="ScreenShots/8.png" width=280 height=636 />
+</p>
+<p align="center">
+  <img src="ScreenShots/9.png" width=280 height=636 />
+</p>
+
+## ABOUT
+<p align="center">
+  <img src="ScreenShots/10.png" width=280 height=636 />
+</p>
+
+
 #  ZatKarDemo
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
