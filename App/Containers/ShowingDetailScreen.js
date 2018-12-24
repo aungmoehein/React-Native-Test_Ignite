@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { View, Image, Modal} from 'react-native'
 import PhoneActionSheet from '../Components/ActionSheet'
 import ReadMore from 'react-native-read-more-text'
+import { CachedImage } from 'react-native-cached-image'
 
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
@@ -52,7 +53,7 @@ class ShowingDetailScreen extends Component {
         <ScrollView style={styles.container}>
           <KeyboardAvoidingView behavior='position'>
             <View style={styles.infoView}>
-              <Image style={styles.imageView} source={{uri: zatkar.image}} />
+              <CachedImage style={styles.imageView} source={{uri: zatkar.image}} />
               <View style={styles.movieDetail}>
                 <View>
                   <Text style={styles.movieTitleText}>{zatkar.movie_title}</Text>

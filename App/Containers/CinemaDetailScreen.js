@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { ScrollView, Text, KeyboardAvoidingView, View, Image, TouchableHighlight, Alert } from 'react-native'
 import { connect } from 'react-redux'
 import PhoneActionSheet from '../Components/ActionSheet'
+import { CachedImage } from 'react-native-cached-image'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
 
@@ -43,7 +44,7 @@ class CinemaDetailScreen extends Component {
             zatkar.movies.map((movie,key)=>(
               <View key={key}>
               <View style={styles.infoView}>
-                <Image style={styles.imageView} source={{uri: movies[movie][0].poster_large}} />
+                <CachedImage style={styles.imageView} source={{uri: movies[movie][0].poster_large}} />
                 <View style={styles.movieDetail}>
                   <View>
                     <Text style={styles.movieTitleText}>{movie}</Text>

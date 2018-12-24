@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { View, Text, ListView, Image, TouchableHighlight } from 'react-native'
 import { connect } from 'react-redux'
 import API from '../Services/Api'
+import { CachedImage } from 'react-native-cached-image'
 
 // For empty lists
 // import AlertMessage from '../Components/AlertMessage'
@@ -82,7 +83,7 @@ class ShowingView extends Component {
   renderRow (rowData, navigation) {
     return (
       <TouchableHighlight onPress={() => navigation.navigate("ShowingDetailScreen",{zatkar: rowData})}>
-        <Image style={styles.imageStyle} source={{uri: rowData.image}}/>
+        <CachedImage style={styles.imageStyle} source={{uri: rowData.image}}/>
       </TouchableHighlight>
     )
   }
